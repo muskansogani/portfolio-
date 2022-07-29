@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div class="user">
+        <img src="images/photo.jpg" alt="" />
+        <h3 class="name">Muskan Sogani</h3>
+        <p class="post">Front-End Web Developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#education">education</a></li>
+          
+          <li><a href="#hobbies">hobbies</a></li>
+          <li><a href="#contact">contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>Muskan Sogani</span></h1>
+      <p>
+        I have good technical and interpersonal
+        skills.
+      </p>
+      <a href="#about"
+        ><button class="btn">about me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> me</h1>
+
+      <div class="row">
+        <div class="info">
+          <h3><span> name : </span> Muskan Sogani</h3>
+          <h3><span> age : </span> 19</h3>
+          <h3><span> qualification : </span> B.tech in Computer Science</h3>
+          <h3><span> post : </span> Front End Developer</h3>
+          <h3><span> language : </span> English, Hindi</h3>
+          <a href="Muskan Sogani CV.pdf"
+            ><button class="btn">
+              download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>1+</span>
+            <h3>years of experience in devlopment and management</h3>
+          </div>
+
+          <div class="box">
+            <span>5+</span>
+            <h3>project completed</h3>
+          </div>
+
+          <div class="box">
+            <span>3+</span>
+            <h3>courses completed</h3>
+          </div>
+
+          <div class="box">
+            <span>20+</span>
+            <h3>Certificates recieved</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+   
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">my <span>education</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2018</span>
+          <h3>10th Standard</h3>
+          <p>
+            Completed the 10th standard with 91% at Delhi Public School,
+            Indore.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>12th Standard</h3>
+          <p>
+            Completed the 12th standard with 80% at St. Raphael's Higher
+            Secondary School, Indore.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>Graduation</h3>
+          <p>
+            Currently pursuing Btech in Computer Science From Medi-Caps
+            University.
+          </p>
+        </div>
+
+       
+      
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts  -->
+
+    
+    <!-- portfolio section ends -->
+    <section class="hobbies" id="hobbies">
+
+      <h1 class="heading"> My <span>Hobbies</span> </h1>
+      
+      <div class="box-container">
+      
+          <div class="box">
+              <i class="fas fa-graduation-cap"></i>
+              <span>1</span>
+              <h3>Travelling</h3>
+              <img src="/images/travelling.jpg"class="entertainment3">
+          </div>
+      
+          <div class="box">
+              <i class="fas fa-graduation-cap"></i>
+              <span>2</span>
+              <h3>Painting</h3>
+              <img src="/images/painting.jpg"class="entertainment2">
+          </div>
+      
+          <div class="box">
+              <i class="fas fa-graduation-cap"></i>
+              <span>3</span>
+              <h3>Photography</h3>
+              <img src="/images/photography.jpg"class="entertainment3">
+          </div>
+      </section>
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> me</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> muskansogani5@gmail.com</h3>
+                   
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> Indore, India - 452002.
+            </h3>
+          </div>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="text" placeholder="project" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn">
+            send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top">
+      <img src="" alt=" no image" />
+    </a>
+
+    
+     
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="main.js"></script>
+  </body>
+</html>
